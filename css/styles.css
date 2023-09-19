@@ -1,0 +1,31 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 200px;
+}
+
+
+
+.box {
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(blue, cyan);
+
+    transform: rotateX(30deg); 
+}
+
