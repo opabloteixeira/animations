@@ -27,7 +27,7 @@ body {
 
 
     perspective: 300px;
-    transform: rotateY(70deg);
+    transform: rotateY(40deg);
     
     transform-style: preserve-3d;
 
@@ -48,7 +48,27 @@ body {
 
 
     
+    animation-name: effect;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+
+
     transform: rotateX(180deg);
     
 }
- 
+
+
+@keyframes effect{
+    0%{
+        width: 0px;
+    }
+
+    100%{
+        width: 100%;
+    }
+
+}
