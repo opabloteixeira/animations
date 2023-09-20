@@ -19,13 +19,36 @@ body {
 }
 
 
+.parent{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 15px;
+
+
+    perspective: 300px;
+    transform: rotateY(70deg);
+    
+    transform-style: preserve-3d;
+
+}
+
 
 .box {
     border-radius: 15px;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     background: linear-gradient(blue, cyan);
 
-    transform: rotateX(30deg); 
-}
+    transition: all .1s ease;
+    /* transform-origin: 50% 50%; */
 
+    transform: rotateX(30deg); 
+    /* transform: rotate(0deg);  */
+
+
+    
+    transform: rotateX(180deg);
+    
+}
+ 
